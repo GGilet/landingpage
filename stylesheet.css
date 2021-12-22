@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 100px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 70px auto;
+}
+
+.text-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-container button {
+    align-self: flex-start;
+}
+.text-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-container img {
+    flex: 2;
+    flex-shrink: 0;
+}
+
+.middle-information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.icon-text-box {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-text-box img {
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.image1, .image2, .image3, .image4 {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    padding: 70px;
+    font: italic 35px sans-serif;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.signup {
+    padding: 50px;
+}
+
+.signup-text-button {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 40px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-weight: 700;
+}
+
+h2, p {
+    margin: 0px;
+    padding: 0px;
+}
